@@ -1,0 +1,14 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CreateMap {
+  public static void main(String[] args) {
+  Map<String,Integer> myMap = new HashMap<>();
+  
+  myMap.put("ram",100);
+  myMap.put("Sangar",90);
+  myMap.put("hevin",80);
+  
+  System.out.println("Map:"+myMap);
+  }
+}
